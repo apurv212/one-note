@@ -4,150 +4,109 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= device-width>, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <title>six_sem_material |home</title>
+
     <style>
-        h1 {
-            text-align: center;
-            border-right: 0px solid black;
-            text-decoration:underline;
-            background-color: rgb(133, 239, 71);
-            height: 50px;
+        #fio {
+            height: auto;
+            width: auto;
+            padding-right: 15px;
         }
-
-        div {
-            text-align: center;
-            margin-left: 300px;
-            margin-right: 300px;
+      
+        marquee{
+            color: aliceblue;
+            
         }
-
-        img {
-            display:block;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 2px;
-            border: 3px solid black;
-
-        }
-
-        video {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        iframe {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        P{
-            text-align: justify;
-        }
-        h3{
-            background-color: aquamarine;
-        }
-     
+       
+        
     </style>
+    <script>
+         var state = 'play';
+
+function toggleMarquee() {
+    var marquee = document.getElementById("marq");
+    if (state === 'play') {
+        marquee.stop();
+        state = 'stop';
+    } else {
+        marquee.start();
+        state = 'play';
+    }
+}
+</script>
 </head>
 
 <body>
+   
+    <header>
+        <h1> VTU NOTES | ONE NOTE </h1>
+        <marquee id="marq" width="90%" direction="right" height="19px" scrollamount="20">
+            <b>Here you will get vtu notes, videos, lab videos, question papers, results , sgpa calculator and many more things</b>      👈
+        </marquee><input type="button" onclick="toggleMarquee();" value="◀️⏸️" />
+    </header>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="contact.html">CONTACT us</a>
+        <a href="https://vtucalculator.com/select-year">SGPA CALCULATOR</a>
+        <a href="payment.html">DONATE US</a>
+       
+    </nav>
+    <main>
+        <h2>COURSES</h2>
+        <iframe id=fio src="https://www.youtube.com/embed/3qo93VJ5CFk" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
-    <body style="background-color:powderblue;">
-
-        <h1 style="color:red">MAGGIE RECIEPE</h1>
-        <img src="maggie-noodles-soup-recipe-main-photo.jpg" width=90px>
-        <hr>
-        <h3> leaner today leader tommorow</h3>
-    
-        <img src="images maggie.jpeg"> </img>
-
-        <hr>
-
-        <p> leaner today leader tommorow at 10<sup>9</sup> growth </p>
-        <hr>
-        <h2>Shopping List</h2>
-        <ul>
-            <li>Milk</li>
-            <li>Peanut Butter</li>
-            <li>Coffee</li>
-            <li>jam </li>
-            <li>Maggie</li>
-            <li>cholate</li>
-        </ul>
-        <hr>
-        <h2>Maggie Recipe</h2>
-        <ol type="i">
-            <li>Boil 1 and Half Cups of water</li>
-            <li>Break the noddle cake in half</li>
-            <li><b>for veg</b></li>
-            <ul>
-                <li>add veg masala</li>
-            </ul>
-            <li><b>for no veg </b></li>
-            <ul>
-                <li>Add the non-veg masala</li>
-            </ul>
-            <li>Cook for 2 minutes</li>
-            <li>Aur hamri tasty maggie ab tyaar hai!!</li>
-        </ol>
-        <div>ctrl +x </div>
-
-
-        <p>Maggi is liquid gold. Maggi is curry-flavored magic, my childhood in a bowl. Maggi is perfect when soupy,
-            perfect sans broth, perfect even straight out of the fridge. What Maggi is is this — a brick of instant
-            noodles that you crack in half over boiling water, then cook with a flavored powder that looks like
-            straight-up turmeric and tastes like 2,000 percent of your daily recommended sodium intake. Maggi 2-Minute
-            Noodle is a phenomenon: In 2014, according to Fortune, Indians consumed 400,000 tons of it.
-
-            Maggi originated in Switzerland, was later acquired by the Swiss-owned Nestlé, and began import to India in
-            1983, just 36 years after the country became independent from colonial British rule. By the early 2000s,
-            Maggi had found a frantic, loyal consumer base in metropolitan India. It’s unclear what Maggi’s curry flavor
-            is supposed to represent, since no Indian curry I’ve ever tasted bears a passing resemblance: I have to
-            assume it must be that European-adjacent brand of nuclear yellow curry, heavy on nondescript “curry powder”
-            and low on any depth of flavor. But Maggi’s appeal lies in its potential for customization — no one I know
-            eats Maggi as-is. My friends make it with fried garlic, red chile powder sprinkled on top. My mom cooks hers
-            with cut-up hot dogs. As a kid, I liked mine with peanuts, doused in ketchup. These doctored dishes are now
-            an indelible memory for a generation of consumers, nostalgia wielded as a powerful marketing tool.
-
-            But in 2015, Maggi was also at the center of a massive food safety scandal, during which the noodles
-            allegedly tested positive for high lead content, and the Food Safety and Standards Authority of India issued
-            a brief, nationwide ban on all Maggi products. Nestlé India has long maintained the product is safe, and
-            that its own testing at the time “consistently show[ed] levels in Maggi Noodles to be within permissible
-            limits.” And despite the negative press, Maggi retains a devoted fan base.
-
-            During the ban, customers would ask if Hungry Head was somehow still serving the noodles, Prohibition-style.
-            From Delhi to Mumbai, outside train stations and office buildings, street vendors dish up ladlefuls of Maggi
-            swimming in curry broth. Up from the northeastern state of Sikkim and all the way down to Pune, college
-            students and young professionals congregate at cafes for chai and noodles made-to-order, with crispy onions,
-            bright red chile pepper sauce, or a whole fried egg. Butter chicken Maggi, tandoori Maggi, and paneer chile
-            Maggi are all common offerings, the noodles fortified with meat, vegetables, and spices drawn from Indian
-            and Indo-Chinese cooking.
-        </p>
-        <hr>
-        <h3 > maggie making process 👇👇</h3>
-        <div><video src="Red chili Maggi 🤤🤤🤤 .mp4" width=587px height=400px controls>
-            </video></div> this how to cook maggie
-
-        <hr>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gCEPMLoheaY" title="YouTube video player"
-            frameborder="20"
+        <!--<img src="6th-1.jpg" width="300px">
+        <a href="https://youtu.be/9Q_7Z2XUq78"><img src="6th-2.jpg" width="300px"> </a>-->
+        <iframe id=fio src="https://www.youtube.com/embed/9Q_7Z2XUq78" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-        <hr>
+        <a href="https://youtu.be/1XU1HqFnWsA"><img src="/assests/6th-3.jpg" width="300px"> </a>
+        <br>
+        <a href="https://youtu.be/nES_HaZjzd4"><img src="/assests/6th-4.jpg" width="300px"> </a>&nbsp;&nbsp;
+        <a href="https://youtube.com/playlist?list=PLHAfpKReeJczQmxia136D7Q5-wNvk4lo0"><img src="/assests/6th-lab.jpg"
+                width="268px"> </a>
+
+
+        <h2 style="background-color: darkgrey;">full playlist </h2>
+        <a href="https://youtube.com/playlist?list=PLHAfpKReeJcz1bNXw94Gc-dJDVumRCYwQ"><img src="/assests/6th-full.jpg"
+                width="300px"> VIDEOS</a>
+        <a href="https://www.azdocuments.in/search/label/CSE6?&max-results=25"><img src="/assests/6th-az-notes.jpg"
+                width="300px">AZ notes</a>
+        <a href="https://takeiteasyengineers.com/cse-ise-list/#6thSem"><img src="/assests/6th-tie.jpg" width="300px">TIE
+            notes</a>
+        <a href="https://drive.google.com/drive/folders/1YF68aUKk0kPKrKBkBMyhRpEpaVD5aVwz?usp=sharing"><img
+                src="/assests/6th sem-qp.jpg" width="300px">question paper</a>
+
+        <h2>SITE-DESIGNER</h2>
+        <img src="/assests/annonymus_pic.png" width="200px">
+        <h3>Apurv Shashvat</h3>
+
+        <a href=" https://twitter.com/apurv_shashvat"><img src="/assests/-twitter-.png" width="70px"></a>
+        <a href="https://www.instagram.com/apurv_shashvat"><img src="/assests/Instagram-logo-transparent-PNG.png"
+                width="70px"></a>
+        <a href="https://www.facebook.com/apurvshashvat.apurvshaswat/?locale=hi_IN"><img src="/assests/facebook.png"
+                width="70px"></a>
+
+        <h5>
+            Persuing computer sceience engineering at SIR MVIT banglore| curious to learn new think | big learner from
+            mistakes | contact-apurvshashvat@gmail.com | mob-7677672641 | </h5>
+
+
 
         <footer>
-            <p>Author: apurv shashvat</p>
-            <div class="link1">
-               <a href="https://twitter.com/apurv_shashvat"><img src="-twitter-.png" width="20px"></a>
-                    <a href="https://www.instagram.com/apurv_shashvat"><img src="Instagram-logo-transparent-PNG.png"
-                            width="20px"></a></div>
-        </footer>
-        <hr>
-        <h4 style="background-color: rgb(0, 255, 106);"> 👇👇for puchasing of maggie 👇👇</h4>
+            <a href="#">FAQ</a>
+            <a href="#">privacy policy</a>
+            <a href="#">&copy</a>
+            <a href="#">2023 &nbsp;|&nbsp;apurvshashvat@gmail.com&nbsp;| </a>
+            
 
-        <a href="payment.html" target="_blank"><button class="paymentPAGE">payment page</button> </a>
-    </body>
+        </footer>
+
+    </main>
+</body>
 
 </html>
