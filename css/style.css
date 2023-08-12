@@ -78,3 +78,12 @@ footer a {
     float: left;
     color: white;
 }
+
+.top{
+
+    display: flex;
+    float: right;
+    background: none;
+    border-radius: none;
+    padding: 2%;
+}
